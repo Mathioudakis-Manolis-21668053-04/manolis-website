@@ -1,0 +1,34 @@
+ 
+<div id="main">
+            <p>Κάποιες πόλεις που επισκέφτηκα είναι:</p>
+            <ul>
+                <li>Λονδίνο</li>
+                <li>Άμστερνταμ</li>
+                <li>Κοπενχάγη</li>
+                <li>Ρώμη</li>
+                <li>Βουκουρέστι</li>
+                <li>Αμβέρσα</li>
+                <li>Περούτζια</li>
+            </ul>
+        </div>
+
+
+
+
+ <p>Πόλεις που σκοπεύω να επισκεφτώ:</p>
+        <ul>
+            <li>Μαδρίτη</li>
+            <li>Λισσαβώνα</li>
+            <li>Ελσίνκι</li>
+            <li>Αβάνα</li>
+            <li>Λίμα</li>
+        </ul>
+		<p> <img src="http://tinyurl.com/3ryr4jkw" height="200" width="180" alt="foto"> </p>
+		
+		header {
+    background-color: #DCDCDC;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px 10px;
+}

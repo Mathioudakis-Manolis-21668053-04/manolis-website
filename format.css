@@ -1,0 +1,141 @@
+
+@import url("reset.css");
+/*flex layout start*/
+* {-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color:#778899;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: -6px 4px 8px rgba(0, 0, 0, 0.75);
+}
+aside {
+    width: 20%;
+    float: left;
+    background-color: #D3D3D3;
+    padding: 5px 10px;
+}
+
+article {
+    width: 80%;
+    float: right;
+    background-color: #C0C0C0;
+    padding: 5px 10px;
+    border: 2px #483D8B inset;
+}
+/*flex layout end*/
+
+body {
+    background-color: #C0C0C0;
+}
+
+	header {
+    background-color: #DCDCDC;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+
+.navbar {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-left: 1px solid #999;
+	overflow: hidden;
+	
+}
+
+.navbar a {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #000;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px solid #999;
+	padding: 7px 5px;
+	display: block;
+	background-color:#778899;
+	width: 25%;
+	text-align: center;
+	float: left;
+	border-left: none;
+	
+}
+
+.navbar a:hover {
+	font-weight: bold;
+	background-color: #A9D7E0;
+	
+}
+
+.home .homelink, .studies .studieslink, .travel .travellink, .hobby .hobbylink 
+{
+	background-color:#FFFFFF;
+	font-weight: bold;
+}
+
+footer {
+    background-color: #DCDCDC;
+    text-align: center;
+    padding: 5px 10px;
+    clear: both;
+}
+
+nav {
+    text-align: center;
+}
+
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+ol li {
+    list-style-type: upper-roman;
+}
+
+
+nav a:link {
+    color: #BC8F8F;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #483D8B;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c2185B;
+}
+
+#main {
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    
+    
+}
+
+#communication {
+    color: #fff;
+    font-size: 140%;
+}
+
+header h1,
+article h3,
+h2 {
+    text-align: center;
+}
+		tr>td:nth-child(3),
+        tr>td:nth-child(5) {
+            color: blue;
+        }
+
